@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/kurta"
+            android:icon="@drawable/dress"
+            android:title="Kurtis" />
+        <item
+            android:id="@+id/suitprint"
+            android:icon="@drawable/dresslong"
+            android:title="Suit Printed" />
+        <item
+            android:id="@+id/heavysuits"
+            android:icon="@drawable/coat"
+            android:title="Heavy Suits (unstitched)" />
+        <item
+            android:id="@+id/top"
+            android:icon="@drawable/topnew"
+            android:title="Top" />
+        <item
+            android:id="@+id/Woolens"
+            android:icon="@drawable/coat"
+            android:title="woolens" />
+
+
+        <item
+            android:id="@+id/leggings"
+            android:icon="@drawable/legging"
+            android:title="Leggings" />
+
+
+    </group>
+
+    <item android:title="Accessories">
+        <menu>
+            <item
+                android:id="@+id/purse"
+                android:icon="@drawable/hand"
+                android:title="Hand Bags" />
+            <item
+                android:id="@+id/more"
+                android:icon="@drawable/more"
+                android:title="Many More" />
+            <item
+                android:id="@+id/owneruse"
+                android:icon="@drawable/ownernew"
+                android:title="Only for Owner" />
+            <item
+                android:id="@+id/about"
+                android:icon="@drawable/aboutnew"
+
+                android:title="About" />
+        </menu>
+    </item>
+
+</menu>
+

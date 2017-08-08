@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_new"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="1000dp"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#34437e"
+    tools:context="com.sanju.developer.shoppercom.New">
+
+    <Button
+        android:id="@+id/btnSelect"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="btnBrowse"
+        android:textSize="20sp"
+        android:textColor="#1c2833"
+        android:background="@drawable/imgshape"
+        android:text="SELECT FILE"/>
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_marginTop="20sp"
+        android:layout_gravity="center"
+        android:layout_width="200sp"
+        android:layout_height="250dp"
+        android:background="@drawable/imgshape"
+
+        />
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <EditText
+        android:id="@+id/editText"
+        android:layout_marginTop="6dp"
+        android:layout_width="match_parent"
+        android:textColorHint="#e6eff9"
+        android:layout_height="wrap_content"
+        android:hint="NAME:-"/>
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+    <EditText
+        android:id="@+id/editTextsize"
+        android:layout_marginTop="6dp"
+        android:textColorHint="#e6eff9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Size:-"/>
+    </android.support.design.widget.TextInputLayout>
+    <Button
+        android:id="@+id/btnUpload"
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textColor="#1c2833"
+        android:onClick="btnUpload"
+        android:background="@drawable/imgshape"
+        android:text="upload FILE"/>
+</LinearLayout>
+</ScrollView>
